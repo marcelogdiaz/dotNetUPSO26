@@ -37,22 +37,47 @@ namespace S4_S5_NUMEROS
             //numInt = (int)numDouble;
             //numInt = (int)numDecimal;
 
-            int i = -3;
-            //Console.WriteLine("Valor Orignal de i: " + i);
-            //Console.WriteLine("++i retorna: " + ++i);
-            //Console.WriteLine("i++ retorna: " + i++);
+            //int i = -3;
+            ////Console.WriteLine("Valor Orignal de i: " + i);
+            ////Console.WriteLine("++i retorna: " + ++i);
+            ////Console.WriteLine("i++ retorna: " + i++);
 
-            double d = 5.5;
-            Console.WriteLine("Valor Orignal de d: " + d);
-            Console.WriteLine("--d retorna: " + --d);
-            Console.WriteLine("d-- retorna: " + d--);
-            Console.WriteLine("Valor -d: " + -d);
-            Console.WriteLine("Valor final de d: " + d);
+            //double d = 5.5;
+            //Console.WriteLine("Valor Orignal de d: " + d);
+            //Console.WriteLine("--d retorna: " + --d);
+            //Console.WriteLine("d-- retorna: " + d--);
+            //Console.WriteLine("Valor -d: " + -d);
+            //Console.WriteLine("Valor final de d: " + d);
 
-            Console.WriteLine(+(i));
-            Console.WriteLine(-4);
+            //Console.WriteLine(+(i));
+            //Console.WriteLine(-4);
 
-            Console.WriteLine(-(-4));
+            //Console.WriteLine(-(-4));
+
+            //asignacion compuesta
+            //int valor1 = 10;
+            //valor1 += 100;  // valor1 = valor1 + 100;
+
+            //////valor INFINITO
+            //Double numero = 10 * (Double.MaxValue);//(Double.MaxValue)* (Double.MaxValue); // da como resultado INFINITO
+            //Console.WriteLine(numero);
+            //Console.WriteLine(numero.GetType().Name);
+
+            //if (Double.IsInfinity(numero))
+            //{
+            //    Console.WriteLine("ES INFINITO");
+            //}
+            //else {
+            //    Console.WriteLine("NO ES INFINITO");
+            //}
+
+            //Console.WriteLine(10/ numero);
+
+            //CAMBIO DE PRECEDENCIA
+            int a = 20 / 10 / 2;
+            int b = 20 / (10 / 2);
+            Console.WriteLine(a);
+            Console.WriteLine(b);
 
             Console.ReadLine();
         }
