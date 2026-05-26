@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3DEED61E-C73B-4E72-9BAA-91A9A57283E6}</ProjectGuid>
+    <ProjectGuid>{4F53C92E-F0FA-4B3B-A2FE-4DBAA71AB963}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>S8_CLASES</RootNamespace>
-    <AssemblyName>S8_CLASES</AssemblyName>
+    <RootNamespace>S10_INTERFACES</RootNamespace>
+    <AssemblyName>S10_INTERFACES</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\Deportista.cs" />
-    <Compile Include="Entidades\JugadorFutbol.cs" />
-    <Compile Include="Entidades\JugadorHockey.cs" />
-    <Compile Include="Entidades\JugadorRugby.cs" />
-    <Compile Include="Entidades\Persona.cs" />
+    <Compile Include="Entidades\Moto.cs" />
+    <Compile Include="Entidades\Vehiculo.cs" />
+    <Compile Include="Interfaces\IService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

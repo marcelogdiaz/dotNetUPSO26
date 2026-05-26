@@ -25,12 +25,39 @@ namespace S8_CLASES
             //Console.ReadLine();
 
 
-            //creamos un jugador en particular
-            Jugador j10 = new Jugador("Lionel", "Messi", 36, "delantero");
+            //creamos un Deportista en particular
+            Deportista j10 = new Deportista("Lionel", "Messi", 36);
+            //j10.CumplirAnios();
+            //j10.Correr();
 
-            j10.CumplirAnios();
 
-            j10.Correr();
+            //JugadorFutbol j05 = new JugadorFutbol("Carlos", "Perez", 24, "Defensor");
+
+            //j05.Correr();
+            //j05.Precalentar();
+
+            List<Deportista> deportistasCenard = new List<Deportista>();
+            Deportista dep = new Deportista("Rodriguez", "Juan", 41);
+
+            deportistasCenard.Add(j10);
+            deportistasCenard.Add(dep);
+
+            for (int i = 0; i < 12; i++)
+            {
+                deportistasCenard.Add(new JugadorFutbol($"NomLOCAL{i}", $"ApLOCAL{i}",25, i.ToString()));
+            }
+
+            deportistasCenard.Add(new JugadorHockey("Luciana", "Aimar", 29));
+
+
+            foreach (var item in deportistasCenard)
+            {
+                item.Correr(); Console.WriteLine();
+
+            }
+
+
+
             Console.ReadLine();
         }
     }

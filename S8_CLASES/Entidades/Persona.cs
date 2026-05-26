@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace S8_CLASES.Entidades
 {
-    class Persona
+    abstract class Persona
     {
         #region PROPERTIES
         /// <summary>

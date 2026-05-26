@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="S8_CLASES.Entidades.Deportista" Collapsed="true">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\Deportista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S8_CLASES.Entidades.JugadorFutbol" Collapsed="true">
+    <Position X="1" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAhAAAEIQAAAAEAAA=</HashCode>
+      <FileName>Entidades\JugadorFutbol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S8_CLASES.Entidades.Persona" Collapsed="true">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAQAAACEAAAAgAAAAAAAAgAAAAIAAAAAAAA=</HashCode>
+      <FileName>Entidades\Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S8_CLASES.Entidades.JugadorHockey" Collapsed="true">
+    <Position X="3.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\JugadorHockey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="S8_CLASES.Entidades.JugadorRugby" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Entidades\JugadorRugby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
