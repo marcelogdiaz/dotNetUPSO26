@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S7_ED_STACK", "..\S7_ED_STA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S7_ED_LIST", "..\S7_ED_LIST\S7_ED_LIST.csproj", "{D0EB9C6A-426E-4E75-B3AD-EA078FCF8001}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S8_CLASES", "..\S8_CLASES\S8_CLASES.csproj", "{3DEED61E-C73B-4E72-9BAA-91A9A57283E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{D0EB9C6A-426E-4E75-B3AD-EA078FCF8001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0EB9C6A-426E-4E75-B3AD-EA078FCF8001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0EB9C6A-426E-4E75-B3AD-EA078FCF8001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEED61E-C73B-4E72-9BAA-91A9A57283E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEED61E-C73B-4E72-9BAA-91A9A57283E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEED61E-C73B-4E72-9BAA-91A9A57283E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEED61E-C73B-4E72-9BAA-91A9A57283E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
